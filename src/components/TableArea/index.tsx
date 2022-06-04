@@ -1,6 +1,7 @@
 import * as C from './styles'
 import {Item} from '../../types/Item'
 import { TableItem } from '../TableItem';
+import { categories } from '../../data/categories';
 
 type Props = {
     list: Item[]
